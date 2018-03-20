@@ -1,0 +1,140 @@
+<!DOCTYPE html> 
+<html>
+
+<!---page layout-->
+ <head>
+    <title>Sali'Vinos</title>
+    <link rel="stylesheet" href="/css/stylemail.css" type="text/css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+
+
+
+<body class="page7">
+
+  
+    <h1>
+      <img src="/images/logoSmall.png">
+    </h1>
+  </div>
+    
+  <h2>Join the Vino-Club</h2>
+
+  <div class= "content">
+  <p>Sign up below to receive special invites to events and wine tastings</p>
+</div>
+  
+
+<!---Navigation + Footer all pages-->
+
+<div class="mobile-menu">
+    <a class="dropdown-link">Menu</a>
+    <ul class="mobile-dropdown">
+          <li><a class="active"href="/home.html">Home</a></li>
+          <li><a href="/apps.html">Hors d'Oeuvre's</a></li>
+          <li><a href="/greens.html">Greens</a></li>
+          <li><a href="/wine.html">Vine</a></li>
+          <li><a href="/about.html">About</a></li>
+          <li><a href="/contact.html">Contact</a></li>
+          
+          
+           
+        </ul> 
+      </div>
+
+
+<!---SignUp sheet JS-->
+
+
+<style type="text/css">
+
+ .heading
+ {
+  color:#0099FF;
+  font-weight:bolder;
+  font-size:20px;
+ }
+ .txt
+ {
+  font-family:Verdana, Arial, Helvetica, sans-serif;
+  font-size:12px;
+ }
+</style>
+
+</head>
+
+ <!---SignUp sheet -->
+
+<form name="frmValidate" id="myform" action="" method="post" onsubmit="return validateForm('myform',true)">
+<table width="350" border="0" cellspacing="0" cellpadding="5" align="center" bgcolor="#F4FAFF" style="border:1px solid #0099FF;">
+  <tr>
+    <td colspan="2" class="heading" align="center" style="border-bottom:1px solid #0099FF;"><a href="http://softproweb.blogspot.com/">Submit Form</a></td>
+  </tr>
+  <tr>
+    <td colspan="2" class="heading" align="center" height="10"></td>
+  </tr>
+  
+  <!---SignUp sheet Enter Frist Name-->
+
+  <tr>
+   <td align="left" class="txt">First Name *</td>
+ <td align="right"><input type="text" name="fname" id="fname" size="28" title="First Name" class="required text" /></td>
+  </tr>
+
+  <!---SignUp sheet Enter Last Name-->
+  <tr>
+   <td align="left" class="txt">Last Name</td>
+ <td align="right"><input type="text" name="lname" id="lname" size="28" title="Last Name" /></td>
+  </tr>
+
+    <!---SignUp sheet Enter Email Address-->
+  <tr>
+   <td align="left" class="txt">Email *</td>
+ <td align="right"><input type="text" name="email" id="email" size="28" title="Email" class="required email" /></td>
+  </tr>
+<!---SignUp sheet Enter Phone Number-->
+
+  <tr>
+   <td align="left" class="txt">Phone *</td>
+ <td align="right"><input type="text" name="phone" id="phone" size="28" title="Phone" class="required regex ^\-?\d+$" /></td>
+  </tr>
+
+  <!---SignUp sheet Enter Date of Birth-->
+
+  <tr>
+   <td align="left" class="txt">Date Of Birth *</td>
+ <td align="right"><input type="text" name="dob" id="dob" size="28" title="Date Of Birth" class="required date" /></td>
+  </tr>
+
+  <!---SignUp sheet Enter Gender-->
+
+  <tr>
+   <td align="left" class="txt">Gender *</td>
+ <td align="left">
+  <input type="radio" name="gender" value="m" title="Gender" class="required" />Male
+  <input type="radio" name="gender" value="f" title="Gender" class="required" />Female
+ </td>
+  </tr>
+  </tr>
+
+  <!---SignUp sheet Submit Button-->
+
+  <tr>
+ <td align="right" colspan="2">
+  <input type="submit" name="btnSubmit" value="Submit Form" />
+ </td>
+  </tr>
+
+</table>
+</form>
+<br /><br />
+
+ 
+<footer>
+    <p>OPEN Sunday-Thursday 11:00a.m.-10:00pm, Friday & Saturday: 11:00am-11:00pm 
+         </p>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script type="text/javascript" src="nav.js"></script>
+</body>
+</html>

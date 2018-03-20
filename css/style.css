@@ -1,0 +1,160 @@
+/*base element styles - homepage*/
+
+
+    /* Home page background image*/
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.page1 {
+    font: italic;
+    background-image: url("/images/purplegrapes.jpg"); 
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: fixed;
+}
+
+/*center main content in page*/
+.container{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -50%;
+    margin-left: -100%;
+   
+}
+
+/*this is the Name*/
+h1{
+    display: flex;
+    font-size: 10em;
+    justify-content: center;
+    vertical-align: middle;
+    margin-top: 5%;
+    margin-bottom: 0%;
+}
+
+
+/*this is the tagline*/
+h2{
+    display: flex;
+    font-size: 3em;
+    justify-content: center;
+    color: rgb(9, 160, 9);
+    vertical-align: middle;
+    margin-top: 0;
+    text-shadow:  3px 3px  #000000;
+    
+  
+}
+
+
+/****************navigation + Footer / all pages **********************************/
+
+
+/*navigation bar top full length*/
+.mobile-menu{
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    justify-content: space-around;
+
+}
+
+/*navigation bar. small around all*/
+.mobile-menu ul {
+    float: right;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    direction: reverse;
+    padding: 14px 16px;
+    text-decoration-color: none;
+    list-style: none;
+    margin: 2em;
+    text-align: center;
+      
+}
+
+/*navigation button spacing*/
+.mobile-menu a {
+    padding: 25px;
+    border: 1px solid rgb(6, 16, 105);
+    list-style: none;
+    padding: 19px;
+    border-radius: 365px;
+    text-decoration: none;
+    
+  
+}
+
+/*navigation text format*/
+a{
+    color: rgb(105, 255, 125);
+    font: bolder;
+    background-color: #4c4eaf;
+    margin: 6px 0;
+    transition: 0.75s;
+   }
+
+/*change the color of links on hover*/
+.mobile-menu a:hover{
+    background-color: rgb(125, 63, 240);
+    color: green;
+}
+
+
+
+footer{
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+    color: aliceblue;
+    background-color: rgb(204, 122, 122);
+    text-align: center;
+}
+
+.dropdown-link {
+    display: none;
+}
+
+
+/***********************************Media Query*****************************/
+
+@media only screen and (max-width: 870px) {
+    .page1 {
+        background-size: initial;
+    }
+
+   .dropdown-link {
+       display: block;
+       color: rgb(105, 255, 125) !important;
+   }
+
+   .mobile-menu {
+        display: flex;
+        flex-flow: column;
+        align-items: flex-end;
+        padding: 0 30px;
+        box-sizing: border-box;
+   }
+
+   .mobile-menu ul {
+       display: none;
+       display: flex;
+       flex-flow: column;
+       width: 100%;
+       margin: 0;
+       padding: 0;
+   }
+
+   .mobile-menu ul li a {
+       display: block;
+       padding: 15px;
+       margin-bottom: 0;
+   }
+} 
