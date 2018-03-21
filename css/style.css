@@ -10,7 +10,7 @@ body {
 
 .page1 {
     font: italic;
-    background-image: url("/images/purplegrapes.jpg"); 
+    background-image: url("../images/purplegrapes.jpg"); 
     background-size: cover; 
     background-repeat: no-repeat;
     background-position: fixed;
