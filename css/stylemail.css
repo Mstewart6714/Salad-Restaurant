@@ -49,6 +49,7 @@
       
     }
 
+
     .content{
         color: white;
         font: bold;
@@ -56,9 +57,11 @@
         text-align: center;
         padding-top: 0%;
         padding-bottom: 30px;
+        margin-top: 30px;
         margin-bottom: 30px;
     }
-   
+
+       
   
 /****************navigation + Footer / all pages **********************************/
 

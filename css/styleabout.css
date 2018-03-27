@@ -1,17 +1,14 @@
 
 
     /* Home page background image*/
-    .page5{
-            font: italic;
-            color: rgb(28, 8, 46);
-            background-image: url("../images/winery.jpg");
-            background-size: cover;
-            background-repeat: no-repeat;
-            background-attachment: fixed;
-           
-                    
-        }
-      
+.page5 {
+    font: italic;
+    color: rgb(28, 8, 46);
+    background-image: url("../images/winery.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
     
     /*center main content in page*/
     .container{
