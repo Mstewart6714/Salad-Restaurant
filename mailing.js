@@ -1,4 +1,5 @@
-$(".myform").on("click", function(event) {
+
+$("#formSubmitEmail").on("submit", function(event) {
     event.preventDefault();
-    alert("submitted");
+    alert("Form submitted!!");
 });
